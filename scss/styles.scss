@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+$solid: 1px solid #ccc;
+$openS: 'Open Sans', sans-serif;
+$smallScreen: 800px;
+#out {
+  margin: 0 auto;
+}
+header {
+  font-family: "Open Sans", sans-serif;
+  nav {
+    color: #708598;
+    margin: 6px 0;
+    img {
+      margin-bottom: 2.5px;
+    }
+    ul {
+      list-style: none;
+      li {
+        cursor: pointer;
+        margin-left: 24px;
+        .vektor {
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+  #nav2 {
+    #logotype {
+      width: 221px;
+      height: 48px;
+      cursor: pointer;
+    }
+    input {
+      background: url("../img/search.png") no-repeat right;
+    }
+    button {
+      width: 116px;
+      height: 40px;
+      margin: 0 24px;
+      span {
+        color: #050F19;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bolder;
+        margin-left: 8px;
+      }
+    }
+    .list {
+      background-color: #FAFBFC;
+      padding: 10px 16px;
+      border-radius: 3px;
+      border: 1px solid #ECEFF1;
+      cursor: pointer;
+      margin: 0 24px;
+      strong {
+        margin: 0 12px;
+      }
+    }
+    .user{
+      background-color: #9B51E0;
+      padding: 15px 22.5px;
+      border-radius: 50%;
+      cursor: pointer;
+      span {
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+    table {
+      margin-bottom: -5px;
+      tbody {
+        position: absolute;
+        width: 100% !important;
+        outline: 1px solid #ccc;
+        border-radius: 3px;
+        td {
+          width: 200vh;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+#logotype {
+    @media screen and (max-width: $smallScreen) {
+      display: none;
+  }
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#out {
+  margin: 0 auto;
+}
+
+header {
+  font-family: "Open Sans", sans-serif;
+}
+header nav {
+  color: #708598;
+  margin: 6px 0;
+}
+header nav img {
+  margin-bottom: 2.5px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  cursor: pointer;
+  margin-left: 24px;
+}
+header nav ul li .vektor {
+  margin-left: 6px;
+}
+header #nav2 #logotype {
+  width: 221px;
+  height: 48px;
+  cursor: pointer;
+}
+header #nav2 input {
+  background: url("../img/search.png") no-repeat right;
+}
+header #nav2 button {
+  width: 116px;
+  height: 40px;
+  margin: 0 24px;
+}
+header #nav2 button span {
+  color: #050F19;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bolder;
+  margin-left: 8px;
+}
+header #nav2 .list {
+  background-color: #FAFBFC;
+  padding: 10px 16px;
+  border-radius: 3px;
+  border: 1px solid #ECEFF1;
+  cursor: pointer;
+  margin: 0 24px;
+}
+header #nav2 .list strong {
+  margin: 0 12px;
+}
+header #nav2 .user {
+  background-color: #9B51E0;
+  padding: 15px 22.5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header #nav2 .user span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+header #nav2 table {
+  margin-bottom: -5px;
+}
+header #nav2 table tbody {
+  position: absolute;
+  width: 100% !important;
+  outline: 1px solid #ccc;
+  border-radius: 3px;
+}
+header #nav2 table tbody td {
+  width: 200vh;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  #logotype {
+    display: none;
+  }
+}
